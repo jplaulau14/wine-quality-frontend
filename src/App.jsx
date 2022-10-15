@@ -36,8 +36,7 @@ function App(props) {
   const submitHandler = (event) => {
     event.preventDefault();
     fetch(
-      import.meta.env.VITE_BASE_URL +
-        "/predict?" +
+      "http://54.189.85.230/predict?" +
         new URLSearchParams({
           sulphates: enteredSulphate,
           alcohol: enteredAlcohol,
