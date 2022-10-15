@@ -3,7 +3,6 @@ import reactLogo from "./assets/react.svg";
 import dog from "./assets/dog.jpg";
 import jepoy from "./assets/jepoy.jpg";
 import "./App.css";
-import.meta.env.VAR;
 
 function App(props) {
   const [enteredSulphate, setEnteredSulphate] = useState("");
