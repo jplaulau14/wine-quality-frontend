@@ -35,7 +35,7 @@ function App(props) {
   const submitHandler = (event) => {
     event.preventDefault();
     fetch(
-      "http://54.189.85.230/predict?" +
+      "https://wine-quality-backend.herokuapp.com/?" +
         new URLSearchParams({
           sulphates: enteredSulphate,
           alcohol: enteredAlcohol,
